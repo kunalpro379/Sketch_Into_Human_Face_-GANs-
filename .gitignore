@@ -1,0 +1,70 @@
+# Example .gitignore for Sketch to Face Project
+# Ignore these folders and files to keep repository size small
+
+# Project-specific folders
+DataPreprocessing/testing_dataset_splitted/
+testing_dataset_splitted/
+preprocessed_data/
+DataPreprocessing/preprocessed_data/
+Data/Humans/
+Data/archive.zip
+archive.zip
+
+# Image folders and files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+.env.bak/
+.venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Examples of what this .gitignore does:
+# Ignores: DataPreprocessing/any_file.jpg
+# Ignores: Data/Humans/face1.png
+# Ignores: preprocessed_data/sketch.jpg
+# Ignores: archive.zip
+# Ignores: .venv/lib/python3.8/
+# Tracks: face_analysis.py
+# Tracks: requirements.txt
+# Tracks: README.md
